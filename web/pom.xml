@@ -16,7 +16,7 @@
     </parent>
     <properties>
         <shade-phase>package</shade-phase>
-        <sonar.projectKey>ngleason31_graphhopper-reader-gtfs</sonar.projectKey>
+        <sonar.projectKey>ngleason31_graphhopper-web</sonar.projectKey>
     </properties>
 
     <dependencies>

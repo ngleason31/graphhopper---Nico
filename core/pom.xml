@@ -27,7 +27,7 @@
         <builddate>${maven.build.timestamp}</builddate>
 
         <!-- SonarCloud configuration -->
-        <sonar.projectKey>ngleason31_graphhopper</sonar.projectKey>
+        <sonar.projectKey>ngleason31_graphhopper-core</sonar.projectKey>
     </properties>
 
 

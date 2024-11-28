@@ -16,7 +16,7 @@
     </parent>
 
     <properties>
-        <sonar.projectKey>ngleason31_graphhopper-reader-gtfs</sonar.projectKey>
+        <sonar.projectKey>ngleason31_graphhopper-web-api</sonar.projectKey>
     </properties>
 
     <dependencies>

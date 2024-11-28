@@ -14,7 +14,7 @@
     </parent>
 
     <properties>
-        <sonar.projectKey>ngleason31_graphhopper-reader-gtfs</sonar.projectKey>
+        <sonar.projectKey>ngleason31_graphhopper-map-matching</sonar.projectKey>
     </properties>
 
     
