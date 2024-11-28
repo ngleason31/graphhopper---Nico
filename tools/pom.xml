@@ -14,6 +14,7 @@
     </parent>
     <properties>
         <assembly-phase>package</assembly-phase>
+        <sonar.projectKey>ngleason31_graphhopper-tools</sonar.projectKey>
     </properties>
 
     <dependencies>

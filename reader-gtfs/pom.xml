@@ -14,8 +14,7 @@
     </parent>
 
     <properties>
-        <sonar.organization>ngleason31</sonar.organization>
-        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.projectKey>ngleason31_graphhopper-reader-gtfs</sonar.projectKey>
     </properties>
 
     <dependencies>

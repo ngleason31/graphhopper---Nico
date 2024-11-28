@@ -26,7 +26,9 @@
         <!-- SonarCloud configuration -->
         <sonar.organization>ngleason31</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.projectKey>ngleason31_graphhopper</sonar.projectKey>
+        <sonar.modules>
+            core,reader-gtfs,tools,map-matching,web-bundle,web-api,web,client-hc,navigation,example
+        </sonar.modules>
     </properties>
 
     <scm>
