@@ -30,7 +30,12 @@
         <groupId>com.graphhopper</groupId>
         <artifactId>graphhopper-parent</artifactId>
         <version>11.0-SNAPSHOT</version>
-    </parent>  
+    </parent>
+
+    <properties>
+        <sonar.projectKey>ngleason31_graphhopper-reader-gtfs</sonar.projectKey>
+    </properties>
+
     
     <dependencies>
         <dependency>
