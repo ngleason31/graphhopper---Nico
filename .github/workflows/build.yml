@@ -3,7 +3,7 @@ name: Build, Test, and Analyze
 on:
   push:
     branches:
-      - main  # Update to match your active branch name
+      - master  # Update to match your active branch name
   pull_request:
     types: [opened, synchronize, reopened]
 
