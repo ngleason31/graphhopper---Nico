@@ -22,6 +22,11 @@
              switched to another JDK on travis it was enabled implicitly. Our javadocs are not ready for this
              so we disable it explicitly now -->
         <doclint>none</doclint>
+
+        <!-- SonarCloud configuration -->
+        <sonar.organization>ngleason31</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.projectKey>ngleason31_graphhopper</sonar.projectKey>
     </properties>
 
     <scm>
@@ -272,6 +277,13 @@
                         </exclude>
                     </excludes>
                 </configuration>
+            </plugin>
+
+            <!-- SonarQube plugin -->
+            <plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>3.9.1.2184</version>
             </plugin>
         </plugins>
     </build>
